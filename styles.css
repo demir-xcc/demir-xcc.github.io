@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(10, 18, 24);
+}
+
+.intro {
+    background-color: rgb(1, 5, 26);
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+.abtm {
+    color: white;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 70px;
+    padding-right: 500px;
+}
+
+.musc {
+    color: white;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 40px;
+}
+
+.foid {
+    float: right;
+    margin-left: 15px;
+}
+
+figure {
+    text-align: right;
+}
