@@ -15,7 +15,6 @@ body{
     font-size: medium;
     font-family: 'Courier New', Courier, monospace;
     margin-top: 70px;
-    padding-right: 500px;
 }
 
 .musc {
@@ -32,4 +31,5 @@ body{
 
 figure {
     text-align: right;
+
 }
