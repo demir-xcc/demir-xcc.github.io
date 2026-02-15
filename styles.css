@@ -2,8 +2,36 @@ body{
     background-color: rgb(10, 18, 24);
 }
 
+
+a:link {
+  color: rgb(255, 205, 69);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: rgb(194, 103, 0);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: rgb(255, 10, 10);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(255, 129, 27);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+
+
 .intro {
-    background-color: rgb(1, 5, 26);
+    background-color: rgb(26, 24, 51);
     color: white;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
@@ -15,6 +43,7 @@ body{
     font-size: medium;
     font-family: 'Courier New', Courier, monospace;
     margin-top: 70px;
+
 }
 
 .musc {
@@ -24,12 +53,14 @@ body{
     margin-top: 40px;
 }
 
-.foid {
-    float: right;
-    margin-left: 15px;
+.soclar {
+    color: white;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 40px;
 }
 
-figure {
-    text-align: right;
-
+.tmoh {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
 }
