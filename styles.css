@@ -36,7 +36,7 @@ a:active {
   padding: 10px;
 }
 
-
+/*mustard porn respect button (ignore this comment)*/
 .gallery-item {
   flex: 1 1 180px; 
   max-width: 200px;
@@ -81,21 +81,19 @@ img {
 .navbar a {
   text-decoration: none;
   padding: 10px;
-  background: #333;
-  color: white;
+  background: #252b44;
+  color: rgb(255, 230, 0);
   border-radius: 5px;
+  font-weight: bold;
+  border: 2px solid rgb(139, 139, 139);
 }
 
 
 @media (max-width: 600px) {
-  .navbar {
-    flex-direction: column;  
-    align-items: stretch;    
-  }
-
   .navbar a {
-    width: 100%;              
-    text-align: center;
-    margin: 5px 0;     /*fuck this bullshit bro i hate my life*/
+    width: auto;        
+    padding: 6px 10px;    
+    font-size: 14px;      
+    margin: 3px auto;     
   }
 }
