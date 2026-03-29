@@ -1,16 +1,17 @@
 body{
     background-color: rgb(10, 18, 24);
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
 }
 
-
 a:link {
-  color: rgb(255, 205, 69);
+  color: rgb(255, 217, 0);
   background-color: transparent;
   text-decoration: underline;
 }
 
 a:visited {
-  color: rgb(194, 103, 0);
+  color: rgb(255, 136, 0);
   background-color: transparent;
   text-decoration: underline;
 }
@@ -27,40 +28,44 @@ a:active {
   text-decoration: underline;
 }
 
-
-
-
-.intro {
-    background-color: rgb(26, 24, 51);
-    color: white;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: large;
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 15px; 
+  padding: 10px;
 }
 
-.abtm {
-    color: white;
-    font-size: medium;
-    font-family: 'Courier New', Courier, monospace;
-    margin-top: 70px;
 
+.gallery-item {
+  flex: 1 1 180px; 
+  max-width: 200px;
+  border: 1px solid #444;
+  background-color: #020d14;
+  transition: transform 0.2s, border 0.2s;
 }
 
-.musc {
-    color: white;
-    font-size: medium;
-    font-family: 'Courier New', Courier, monospace;
-    margin-top: 40px;
+
+.gallery-item:hover {
+  border: 1px solid #aaa;
+  transform: scale(1.03);
 }
 
-.soclar {
-    color: white;
-    font-size: medium;
-    font-family: 'Courier New', Courier, monospace;
-    margin-top: 40px;
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
-.tmoh {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: larger;
+
+.gallery-item .desc {
+  padding: 12px;
+  text-align: center;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
