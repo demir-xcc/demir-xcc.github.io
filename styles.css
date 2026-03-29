@@ -97,3 +97,31 @@ img {
     margin: 3px auto;     
   }
 }
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+    font-weight: bold;
+    color: #fffb00;
+}
+/*bitch ass performative ""hovering"" shit but it lowk looks heat*/
+.card {
+    background: #252b44;
+    padding: 15px 30px;
+    width: 250px;
+    border-radius: 10px;
+    transition: 0.2s;
+    border: 2px solid rgb(139, 139, 139)
+}
+
+.card:hover {
+    background: #252b44;
+    transform: scale(1.05);
+}
+
+.bitch {
+  text-align: center;
+}
